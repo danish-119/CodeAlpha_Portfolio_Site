@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Danish's Portfolio</h1>
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="/about.html">About</a></li>
+                <li class="nav-item"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="header-button">Hire Me</button>
+    </header>
+    <main>
+        <section class="intro-section">
+            <div class="intro-text">
+                <h2>Hi, I am Danish</h2>
+                <p>A Full-Stack Developer & Software Engineer</p>
+                <button class="download-cv">Download CV</button>
+            </div>
+            <div class="intro-image">
+                <img src="Inventory/Images/developer.png" alt="Developer Image">
+            </div>
+        </section>
+        <div id="hireModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Hire Me</h2>
+                <form id="hireForm">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="card">
+            <h2>Connect with me</h2>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/danish-119gb/" target="_blank">
+                    <img src="Inventory/Images/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.github.com" target="_blank">
+                    <img src="Inventory/Images/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.google.com" target="_blank">
+                    <img src="Inventory/Images/leetcode.png" alt="Globe">
+                </a>
+                <a href="https://www.leetcode.com" target="_blank">
+                    <img src="Inventory/Images/stack-overflow.png" alt="LeetCode">
+                </a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <p>&copy; 2024 Danish's Portfolio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/faq.html">FAQ</a>
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
