@@ -1,9 +1,0 @@
-🌐 Thrilled to unveil my Personal Portfolio Website! 🚀
-
-Crafted with HTML, CSS, and JavaScript, this website showcases my skills, projects, and resume in a visually appealing and interactive format. It serves as a digital resume where visitors can explore my professional journey, view projects I've worked on, and get a glimpse of my expertise. Whether you're curious about my skills or want to connect, this site is designed to make an impact! 💼
-
-🔗 Check out the project here: [Link to your project or GitHub repository]
-
-A big thank you to @CodeAlpha for their invaluable guidance and encouragement throughout this rewarding project! 🌟
-
-#WebDevelopment #HTML #CSS #JavaScript #Portfolio #CodeAlpha
