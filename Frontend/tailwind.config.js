@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        '10p': '10%',
+      },
+      colors: {
+        'primary-yellow': '#f39c12',
+        'hover-yellow': '#e67e22',
+        'text-black': '#000',
+      },
+    },
   },
   plugins: [],
 }
