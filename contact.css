@@ -17,7 +17,8 @@ main {
 
 .contact-form {
     box-sizing: border-box;
-    border: 0 solid #e5e7eb;
+    border: 0px solid #e5e7eb;
+    box-shadow: 3px 3px 10px gray;
 }
 
 .contact-form,
@@ -25,7 +26,6 @@ main {
     flex: 1 1 45%;
     padding: 20px;
     border-radius: 8px;
-    background-color: #fff;
 }
 
 .contact-form h2,
@@ -38,7 +38,8 @@ main {
 .contact-form label {
     display: block;
     margin-bottom: 5px;
-    /* font-weight: bold; */
+    color: #0d2438;
+    font-weight: normal;
 }
 
 .contact-form input,
@@ -48,6 +49,8 @@ main {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    color: #0d2438;
+    background-color: #f6f7f8;
 }
 
 .contact-form button {
@@ -62,4 +65,19 @@ main {
 
 .contact-form button:hover {
     background-color: #e67e22;
+}
+
+
+.contact-item img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    color: rgb(101, 101, 101);
+    font-size: 1.1em;
+    margin-top: 30px;
 }

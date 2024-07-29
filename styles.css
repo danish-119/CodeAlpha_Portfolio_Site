@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 10%; /* Add padding to the left and right */
+    padding: 0 10%;
 }
 
 body *::selection{
@@ -49,12 +49,12 @@ img::selection{
 }
 
 .nav-item {
-    margin: 0 35px;
+    margin: 0 30px;
 }
 
 .nav-item a {
     text-decoration: none;
-    color: #000; /* Changed to black for better contrast */
+    color: #000;
     font-size: 1em;
 }
 
